@@ -1,0 +1,39 @@
+.card-item-container {
+  border: 4px solid #475569;
+  margin: 10px;
+  border-radius: 5px;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 100px;
+}
+.ipl-card-link {
+  text-decoration: none;
+}
+
+.ipl-logo {
+  height: 50px;
+  padding: 15px;
+}
+.ipl-head {
+  margin: 15px;
+  color: #ffffff;
+  font-family: Bree Serif;
+  font-size: 15px;
+  font-weight: 400;
+  margin-left: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .card-item-container {
+    width: 350px;
+    height: 150px;
+  }
+
+  .ipl-head {
+    font-size: 25px;
+    margin-left: 15px;
+  }
+}

@@ -1,0 +1,19 @@
+.recent-match-card-container {
+  display: flex;
+  background-color: #0f172a;
+  height: 350px;
+  width: 250px;
+  color: #ffffff;
+  font-family: Bree Serif;
+  font-size: 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  margin: 10px;
+}
+
+.recent-team-logo {
+  height: 100px;
+  width: 85px;
+}

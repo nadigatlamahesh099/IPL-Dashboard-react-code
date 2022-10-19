@@ -1,0 +1,30 @@
+.main-match-container {
+  background-image: linear-gradient(to bottom, #d91c1f, #1e293b);
+  height: 100%;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 15px;
+}
+
+.banner-logo {
+  width: 100%;
+  height: 400px;
+  margin-top: 15px;
+}
+.match-head {
+  color: #ffffff;
+  font-family: Bree Serif;
+  font-size: 15px;
+  margin-left: 15px;
+  align-self: flex-start;
+}
+.recent-card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  flex-wrap: wrap;
+}
